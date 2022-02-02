@@ -421,4 +421,4 @@ def advance_slider(back, nxt, slider, last_history):
 
 # Run the Dash app
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8000, host="0.0.0.0")
